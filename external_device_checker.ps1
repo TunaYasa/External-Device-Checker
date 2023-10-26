@@ -6,11 +6,11 @@ Register-WmiEvent -Query "SELECT * FROM __InstanceCreationEvent WITHIN 1 WHERE T
 
     if ($usbDevice.Description -match "USB") {
 
-        Write-Host "USB cihazi baglandi: $($usbDevice.Description)"
+        Write-Host "USB device inserted: $($usbDevice.Description)"
 
         # You can add the operations you want to do when USB is connected
 
-        Start-Process -FilePath "C:\path_trial\lghub_installer.exe"
+        Start-Process -FilePath "FILE PATH SHOULD BE ADDED HERE TO RUN FILE OR .EXE"
     }
 
  
