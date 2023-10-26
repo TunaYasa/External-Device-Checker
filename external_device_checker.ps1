@@ -12,7 +12,4 @@ Register-WmiEvent -Query "SELECT * FROM __InstanceCreationEvent WITHIN 1 WHERE T
 
         Start-Process -FilePath "FILE PATH SHOULD BE ADDED HERE TO RUN FILE OR .EXE"
     }
-
- 
-
 }
